@@ -14,8 +14,8 @@ if __name__ == "__main__":
                                              voice_agent_type=retrieve_voice_agent_type())
     
     call_data = make_concurrent_outbound_calls(phone_number_ID=VAPI_PHONE_NUMBER_ID, 
-                                   assistants=assistants, 
-                                   phone_number_to_call=TEST_PHONE_NUMBER)
+                                               assistants=assistants, 
+                                               phone_number_to_call=TEST_PHONE_NUMBER)
     
     for i, call_log in enumerate(call_data, start=1):
         print(f"\nCall {i} Data:")
