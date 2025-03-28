@@ -75,5 +75,4 @@ def log_api_response(response: dict) -> None:
     print(f"Response status code: {response.status_code}")
     print(f"Response headers: {response.headers}")
     print(f"Response body: {response.text}")
-
-
+    

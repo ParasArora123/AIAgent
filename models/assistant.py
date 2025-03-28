@@ -1,4 +1,4 @@
-from dataclasses import MISSING, dataclass, fields
+from dataclasses import dataclass
 from typing import Optional, List
 
 # Need to use relative imports to avoid circular imports
